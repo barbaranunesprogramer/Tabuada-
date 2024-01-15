@@ -1,0 +1,69 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(71, 71, 222);
+    font: normal 20px arial;
+    color:black;
+
+}
+header{
+    color:white;
+    text-align: center;
+    
+
+}
+section{
+    background-color: white;
+    border-radius:10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow:5px 5px 10px rgba(10, 10, 10, 0.785);
+
+
+}
+div{
+    margin-top: 10px;
+    text-align: center;
+}
+footer{
+    color:white;
+    text-align: center;
+}
+section {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+.seltab {
+    
+    text-align: center;
+    font-size:20px;
+    color:blue;
+}
+.botao{
+    background-color: rgb(23, 179, 166);
+    height: 50px;
+    margin-top: 7px;
+    border-radius: 15px;
+    color:chartreuse;
+
+}
+.botao:hover{
+    background-color: red;
+}
+a{
+    background-color: rgb(214, 21, 201);
+    text-decoration: none;
+    color: chartreuse;
+    border-radius: 15px;
+    height: 20px;
+    width: 20px;
+
+}

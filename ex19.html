@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Tabuada </h1>
+    </header>
+    <section>
+        <div>
+        <p>Número : <input type="number" name ="num"id="txtn">
+            <label for = "sinal">Insira um sinal </label>
+            <select name="sinal4" id="sinal1">
+                <option id = "operacao" value="+">+</option>
+                <option id = "operacao"  value="-">-</option>
+                <option id = "operacao"  value="*">*</option>
+                <option id = "operacao"  value="/">/</option>
+            </select>
+           
+        <input type="button"  class = "botao" value="Gerar Tabuada" onclick="tabuada()">
+
+        </div>
+        <select class =" seltab" name="tabuada" id="seltab" size="10">
+           <option> Digite um numero acima</option>
+        </select>
+        
+        <div>
+
+        </div>
+
+    </section>
+    <footer>
+        <p> Bárbara Nunes Programer  . <a class ="btnportifolio" href="https://portifoliobarbara.vercel.app/"> Click para saber mais sobre mim </a></p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
